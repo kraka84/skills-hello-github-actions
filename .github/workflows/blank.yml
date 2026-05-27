@@ -29,7 +29,7 @@ jobs:
     steps:
       # Paso 1: Clonar el repositorio (usa v4 compatible con Node.js 24)
       - name: Checkout code
-        uses: actions/checkout@v4      
+        uses: actions/checkout@v5
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
